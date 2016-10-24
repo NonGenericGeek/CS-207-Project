@@ -29,9 +29,7 @@ To help with scaling the project up, down, crosswise, or longitudinally, I have 
 IMPORTANT: be sure to measure the distances between the axles of your frame for the calculator. Doing otherwise will give you incorrect results.
 Refer to the following image for what to measure.
 
-![alt text][pic1]
-
-[pic1]: https://github.com/NonGenericGeek/CS-207-Project/blob/master/img/trackLengthDiagram.jpg “Will it work this time?”
+![Alt text](https://github.com/NonGenericGeek/CS-207-Project/blob/master/img/trackLengthDiagram.jpg)
 
 Step one: Please wait for further build instructions.
 
