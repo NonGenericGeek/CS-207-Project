@@ -1,7 +1,9 @@
 # CS 207 Project: The Convenient Arduino Remote Device Built Ostensibly to Assert Robotic Dominance - Battle-Oriented Experiment (CARDBOARD-BOX) [version 0.02]
 ====================
 
-This repository will contain the necessary information to build a (generally) scalable remote control drone vehicle. This vehicle will resemble an armoured mobile weapons platform, namely a tank.
+This repository will contain generalized information to build a scalable remote control drone vehicle. This vehicle will resemble an armoured mobile weapons platform, namely a tank.
+Due to the project’s scalable nature, most of the tank’s construction is a matter of utility and personal preference. To that end, I’ll try to provide some advice and programs to help design a custom frame. I’ll also provide the specifics of my build. As long as the electronic components and software are assembled and uploaded correctly, it should work, whatever the frame looks like.
+
 
 Repository Contents
 ==========
@@ -15,13 +17,15 @@ Repository Contents
 Materials
 ==========
 Currently uncertain.
-* A breadboard, probably
-* Probably at least one Arduino
+* A breadboard, possibly two
+* An Arduino
 * A material sturdy enough to make a frame
 * Some motors
+* at least one servo
 * A slip ring
 * Some wheels
 * Some tracks to put on the wheels
+* (optional) some springs, to provide suspension
 
 Build Instructions	
 ==========
