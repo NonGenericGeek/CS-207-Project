@@ -10,15 +10,17 @@ Repository Contents
 * /build - Contains complete software, ready for use.
 * /hardware - Contains nothing, at the moment.
 * /img - contains images for this file.
-* /src - Currently empty.
+* /src - Contains the code used by the Arduinos.
 * /LICENSE-  The license for this project.
 * /README.md - This file.
 
 Materials
 ==========
-Currently uncertain.
+A pile o’ stuff.
 * A breadboard, possibly two
-* An Arduino
+* 1 Arduino Uno
+* 1 Arduino Mega
+* 1 Motor control shield
 * A material sturdy enough to make a frame
 * Some motors
 * at least one servo
@@ -44,3 +46,7 @@ Once complete, the drone will be controllable from a remote control. I will add 
 Team
 =====
 * Logan Slater
+
+Thanks to
+=====
+* My family, for being both helpful and nuclear.
