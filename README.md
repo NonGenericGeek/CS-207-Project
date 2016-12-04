@@ -61,9 +61,9 @@ Use
 Once complete, the drone will be controllable from a remote control. Currently, the code only supports using a wired controller, but I have managed to compress the control signals into two wires, or, if you eschew the turret controls, one wire (from Uno pin 9 to Mega pin 44).
 The communication between the Arduinos is a system that I feel rather proud of. Essentially, each button on the controller is assigned a value, and when that button is pressed, that value is added to the PWM signal from one of the output pins.
 
-Up (10)
-Left (70)	Right (30)
-Down (90)	Fire (100)
+		Up (10)
+	Left (70)	Right (30)
+		Down (90)	Fire (100)
 
 This is done for each set of directional buttons. If an output value is above 100, 100 is subtracted from that value until it’s less than 100. If the fire button is pressed, 100 is added to the value after this point.
 This results in the following table for the movement control pin. For the turret control pin, 100 is added to the output value when the Fire button is pressed.
