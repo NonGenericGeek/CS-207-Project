@@ -47,12 +47,13 @@ void loop() {
   //parseTurret(currentInput, tRotate, tAngle);
   //limit (tRotate, 1);
 
+  if (!fire)
+    noTone(CFpin);
   if (fire) {
     switch (currentInput) {
-      case 0:
       case 4:
       case 6:
-        noTone(CFpin);
+        tone(CFpin,523.25);
         break;
       case 1:
         tone(CFpin, 783.99);
